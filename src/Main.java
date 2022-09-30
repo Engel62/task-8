@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+    var hoursWork = 640;
+    var personHours = 8;
+    var allWorkers = hoursWork / personHours;
+    System.out.println("Всего рабоников компании - " + allWorkers + " человек");
     }
 }
